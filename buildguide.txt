@@ -93,6 +93,8 @@ m
 ```cd ../../../``` or ``` cd ~ && cd lineage``` 
 
 **And start the build**
+
+cd <omnirom>; . build/envsetup.sh; brunch <device_name>
  
 ``` . build/envsetup.sh``` 
 ```lunch lineage_tulip-userdebug```
