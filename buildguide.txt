@@ -20,15 +20,18 @@
 
 #Now lets configure you github username and email globally.
 
-```git config --global user.name "AKHILMS ACHU"```
-```git config --global user.email "akhilsree001@gmail.com"```
+```git config --global user.name "wayneeg"```
+```git config --global user.email "waynee@outlook.com.br"```
 
 #Lets make a directory where we will intialise our rom source
-``` mkdir omnirom``` 
+``` mkdir android```
+``` cd android```
+``` mkdir crdroid```
+``` cd crdroid```
 #It will make a directory named lineage
 m
 #Now Lets sync a Source into the lineage directory we have made
-```cd omnirom```
+```cd android```
 ```repo init -u "CLONE_URL" -b "BRANCH"```
 #For example lets clone Lineage Source for Pie.
 #So the Branch will be lineage-16.0 for oreo it will be lineage-15.1.
